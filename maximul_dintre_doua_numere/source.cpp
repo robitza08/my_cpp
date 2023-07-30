@@ -7,9 +7,10 @@ int main(){
     cout << "Insert two integer numbers separated by space: ";
     cin  >> n >> m;
 	cout << "The biggest number is: ";
-    if (n > m)
+    if (n > m) {
         cout << n;
-    else
-        cout << m;
+    } else { 
+        cout << m; 
+    }
     return 0;
 }
