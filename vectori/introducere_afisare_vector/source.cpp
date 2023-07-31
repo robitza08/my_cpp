@@ -18,13 +18,17 @@ int main() {
         v.push_back(a);
     }
 	
-	cout << "Vectorul introdus este: \n";
+	cout << "Vectorul introdus este:\n";
 	
 	cout << "[";
     for (int j=0; j < v.size(); j++) {
-        cout << v[j] << " ";
-    }
-    cout << "]";
-	
+        if (j<v.size()-1){
+            cout << v[j] << ", ";
+        } else {
+            cout << v[j];
+        }
+     }
+    cout << "]\n";
+
     return 0;
 }
