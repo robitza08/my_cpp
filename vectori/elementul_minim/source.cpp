@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-	int n; 
-	cout << "Introduceti dimensiunea (numarul de elemente) vectorului apoi apasati enter: ";
+    int n;
+    cout << "Introduceti dimensiunea (numarul de elemente) vectorului apoi apasati enter: ";
     cin >> n;
 	
     int a;
@@ -17,10 +17,10 @@ int main() {
         cin >> a;
         v.push_back(a);
     }
+    
+    cout << "Vectorul introdus este: \n";
 	
-	cout << "Vectorul introdus este: \n";
-	
-	cout << "[";
+    cout << "[";
     for (int j=0; j < v.size(); j++) {
         if (j<v.size()-1){
             cout << v[j] << ", ";
@@ -29,10 +29,9 @@ int main() {
         }
     }
     cout << "]\n";
-	
-	
-	cout << "Vectorul afisat din doua in doua elemente: \n";
-	cout << "\n[";
+    
+    cout << "Vectorul afisat din doua in doua elemente: \n";
+    cout << "\n[";
     for (int j=0; j < v.size(); j++) {
         if (j<v.size()-1){
             cout << v[j] << ", ";
