@@ -41,7 +41,7 @@ int main() {
     cout << "Vectorul modificat este: \n";
 	
     cout << "[";
-    for (int j=0; j < v.size(); j++) {
+    for (int j=0; j < v.size(); j++) { // la fel ca mai sus
         if (j<v.size()-1){
             cout << v[j] << ", ";
         } else {
