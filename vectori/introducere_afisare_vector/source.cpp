@@ -18,7 +18,7 @@ int main() {
         v.push_back(a);
     }
 	
-	cout << "Vectorul introdus este:\n";
+	cout << "Vectorul introdus este:";
 	
 	cout << "[";
     for (int j=0; j < v.size(); j++) {
