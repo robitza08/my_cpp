@@ -30,13 +30,16 @@ int main() {
     }
     cout << "]\n";
     
-    int suma=0;
+    int suma_numere_impare=0;
+    int suma_numere_pare=0;
     for(int i=0; i < v.size(); i++) { 
         if (v[i]%2==0) { 
-            suma=suma+v[i];    
-        } 
+            suma_numere_pare = suma_numere_pare + v[i];    
+        } else {
+            suma_numere_impare = suma_numere_impare + v[i];
+        }
     } 
-    cout << "Suma numerelor pare din vector este: " << suma;
-    
+    cout << "Suma numerelor pare din vector este: " << suma_numere_pare;
+    cout << "\nSuma numerelor impare din vector este: " << suma_numere_impare;
     return 0;
 }
