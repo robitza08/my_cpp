@@ -6,7 +6,7 @@ int main()
     cout << "Introduceti un numar natural de la tastatura: ";
     cin >> n;
     cout << "Cifrele numarului sunt: ";
-    while(n != 0) // cat timp n este nenul - mai are cifre
+    while (n != 0) // cat timp n este nenul - mai are cifre
     {
         int r = n % 10; //determinam ultima cifra a lui n
         
