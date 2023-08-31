@@ -31,13 +31,17 @@ int main() {
     cout << "]\n";
     
     int suma=0;
-    
     for(int i=0; i < v.size(); i++) { 
-        suma = suma + v[i];
+        suma=suma+v[i];
+    } 
+    int numar=0;
+    int ma = suma/v.size();
+    for (int i=0; i < v.size(); i++) {
+        if (v[i] > ma) {
+            numar++;
+        }
     }
+    cout << "Numarul elementelor mai mari decat media aritmetica din vector este: " << numar;
 
-
-    
-    cout << "Suma numerelor din vector este: " << suma;
     return 0;
 }
