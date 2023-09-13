@@ -4,12 +4,12 @@ using namespace std;
 
 int main()
 {
-    int a;
-    int b;
+    int x;
+    int y;
     cout <<"** Acest program face suma a doua numere introduse de la tastatura si afiseaza ultima cifra a sumei *\n\n";
     cout <<"Scrieti doua numere intregi separate prin spatiu: ";
 
-    cin >> a >> b;
+    cin >> x >> y;
 
     int c=a+b;
     int d=c%10;
